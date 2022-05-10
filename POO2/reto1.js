@@ -1,5 +1,5 @@
 class Person {
-    constructor (nombre,edad,altura,peso,colorPelo,yearOfBirth,hobbies){
+    constructor (nombre,altura,peso,colorPelo,yearOfBirth,hobbies){
         this.nombre = nombre;
         this.edad = edad;
         this.altura = altura;
@@ -34,3 +34,8 @@ printHobbies(hobbies){
 
 }
 } 
+let persona1 = new Person("Manolo",182,78,"Castaño",1981, ["gritar", " chillar"," dar voces"])
+persona1.calcularEdad();
+persona1.calcularImc();
+persona1.printAll();
+persona1.printHobbies();

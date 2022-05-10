@@ -1,7 +1,6 @@
 class Person {
-    constructor (nombre,edad,altura,peso,colorPelo,yearOfBirth,hobbies){
-        this.nombre = nombre;
-        this.edad = edad;
+    constructor (nombre,altura,peso,colorPelo,yearOfBirth,hobbies){
+        this.nombre = nombre;        
         this.altura = altura;
         this.peso = peso;
         this.colorPelo = colorPelo;
